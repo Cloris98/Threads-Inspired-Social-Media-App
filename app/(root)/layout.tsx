@@ -10,12 +10,12 @@ import LeftSidebar from "@/components/shared/LeftSidebar";
 import RightSidebar from "@/components/shared/RightSidebar";
 import Bottombar from "@/components/shared/Bottombar";
 
+const inter = Inter({ subsets: ['latin'] })
+
 export const metadata: Metadata = {
     title: 'Threads',
     description: 'Threads next14 v1.00 application'
 }
-
-const inter = Inter({ subsets: ['latin'] })
 
 function Header() {
   return (
